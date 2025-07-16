@@ -1,12 +1,22 @@
 {
-  "dependencies": {
-<<<<<<< HEAD
-    "@capacitor/cli": "^6.2.1",
-=======
-    "@capacitor/android": "^7.4.2",
+  "name": "itaba-frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "generate-pwa-assets": "pwa-assets-generator --preset minimal-2023 Frontend/icons/itaba-192.png"
+  },
+  "devDependencies": {
     "@capacitor/cli": "^7.4.2",
->>>>>>> 874208e23599682dec985f47b06677fdec0b7de4
     "@capacitor/core": "^7.4.2",
+    "@vite-pwa/assets-generator": "^1.0.0",
+    "vite": "^7.0.4"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.2",
+    "@capacitor/ios": "^7.4.2",
+    "@ionic/core": "^8.6.4",
     "cors": "^2.8.5",
     "express": "^5.1.0"
   }

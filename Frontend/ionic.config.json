@@ -1,5 +1,7 @@
 {
   "name": "itabaza",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "custom"
 }
